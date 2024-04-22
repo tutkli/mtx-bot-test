@@ -97,8 +97,14 @@
           "options": {
             "buildTarget": "mtx-bot-test:build"
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "f758cff9-ae22-48be-9c99-95ff3416a1be"
   }
 }
